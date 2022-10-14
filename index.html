@@ -7,6 +7,12 @@
         <title>20_NTU_CS_1100</title> 
 </head>       
 <body>
+        <dialog open>
+                <p>Greetings, one and all!</p>
+                <form method="dialog">
+                  <button>Thank you!!</button>
+                </form>
+        </dialog>
         <header>
                 <h1>National Textile University</h1>
                 <figure>
@@ -23,10 +29,23 @@
                              <a href="#">Home</a> <a href="#">About</a> <a href="#">Contact</a>
                         </nav>
                 </pre>
+                <q>The greatest superpower is the ability to change yourself.</q>
+                <br><br>
+                <picture>
+                        <source srcset="/G:/5th Smester/Web Engineering/images/Students.jpg"
+                                media="(min-width: 800px)">
+                        <img src="/G:/5th Smester/Web Engineering/images/images.jpg" alt="">
+                </picture>
+                <portal id="profile" src="https://eshabsoft.000webhostapp.com/"></portal>
                 <section> 
                         <blockquote>
                         <h3>BSSE-5th</h3>
                         <p>My name is Esha Akram. I'm in <b>3rd year</b> of University.</p> 
+                        <details>
+                                <summary>Skills</summary>
+                                I’m an <em>Oracle Developer</em>, with a rich experience in Forms & Reports design. 
+                                I’m also very good to query with SQL & PLSQL.
+                        </details>
                         </blockquote>   
                 </section>
                 <menu>
@@ -74,11 +93,8 @@
                 <object type="application/pdf"
                         data="https://widgetbox.app/embed/calendar/simple/nDvxS24KnjX2Ft3YZYYqcQ?flag=true" width="250" height="200">
                 </object>
-                <picture>
-                        <source srcset="/media/cc0-images/surfer-240-200.jpg"
-                                media="(min-width: 800px)">
-                        <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="">
-                </picture>
+                <h4>My Favourite Book</h4>
+                <cite><a href="https://www.navalmanack.com/almanack-of-naval-ravikant/table-of-contents">The Almanak</a></cite> By <code>Naval Ravikant.</code>
                 </div>
         </main>
         <br>
@@ -90,6 +106,7 @@
         <hr>
                 <form>
                         <h2>Comment Section</h2>
+                        <p>Please carefully fill all fields then press <mark><kbd>Submit</kbd></mark> to send this application form.</p>
                         <div>
                                 <label for="name">Enter your name: </label>
                                 <input type="text" name="name" id="name" required size="21">
@@ -153,18 +170,15 @@
                 <progress id="file" max="100" value="70"> 60% </progress>
                 </div>
         <hr>
-        <footer>
-                <cite>Some copyright info or perhaps something unrelated info for an &lt;article&gt;?</cite>
-        </footer>
+        <footer>Some <i>copyright</i> info or perhaps something unrelated info for an &lt;article&gt;?</footer>
         <dl>
-                <code>Select All() </code>
-                <dt>Debute</dt>
-                <dd>to make a first appearance</dd>
+                <dfn><dt>Extend</dt></dfn>
+                <dd>to make it longer in terms of time</dd>
+                <p><bdo dir="rtl">This is glossary element</bdo></p>
         </dl>
-        <iframe id="inlineFrameExample"
+        <iframe id="inlineFrame"
                 title="Inline Frame Example" width="500" height="200"
                 src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
         </iframe>
-        
 </body>
 </html>
