@@ -29,11 +29,6 @@
                              <a href="#">Home</a> <a href="#">About</a> <a href="#">Contact</a>
                         </nav>
                 </pre>
-                <article>
-                <ruby>
-                        안녕하세요 <rp>(</rp><rt>Asslam Alikum</rt><rp>)</rp>
-                </ruby>
-                </article>
                 <q>The greatest superpower is the ability to change yourself.</q>
                 <br><br>
                 <picture>
@@ -45,11 +40,16 @@
                 <section> 
                         <blockquote>
                         <h3>BSSE-5th</h3>
+                        <article>
+                                <ruby>
+                                        안녕하세요 <rp>(</rp><rt><strong>Hello</strong></rt><rp>)</rp>
+                                </ruby>
+                        </article>
                         <p>My name is Esha Akram. I'm in <b>3rd year</b> of University.</p> 
                         <details>
                                 <summary>Skills</summary>
-                                I’m an <em>Oracle Developer</em>, with a rich experience in Forms & Reports design. 
-                                I’m also very good to query with SQL & PLSQL.
+                                I’m an <em>Oracle Developer</em>, with a rich experience in <u>Forms & Reports</u> design. 
+                                I’m also very good to query with <var>SQL</var> & <var>PLSQL</var>.
                         </details>
                         </blockquote>   
                 </section>
@@ -107,11 +107,11 @@
         Contacts:<br><a href="email:eshabsoft@gmail.com">eshabsoft@gmail.com</a><br>
                 <a href="tel:+92 317-7420499">0317-7420499</a>
         </address>
-        <aside><p>Admissions Date is Extended till 05 November 2020 for some specific fields.</p></aside>
-        <hr>
+        <aside><p>Admissions Date is <span>Extended</span> till <time datetime="2022-05-11">November 05</time>, 2022 for some specific fields.</p></aside>
                 <form>
                         <h2>Comment Section</h2>
                         <p>Please carefully fill all fields then press <mark><kbd>Submit</kbd></mark> to send this application form.</p>
+                        <fieldset>
                         <div>
                                 <label for="name">Enter your name: </label>
                                 <input type="text" name="name" id="name" required size="21">
@@ -136,16 +136,14 @@
                                         </datalist>
                         </div>
                         <div>
-                        <fieldset size="21">
-                                <legend >Choose your gender</legend>
+                                <label for="gender">Choose Your gender: </label>
                                 <input type="radio" id="Male" name="gender" value="M">
                                 <label for="Male">Male</label>
                                 <input type="radio" id="Female" name="gender" value="F">
                                 <label for="Female">Female</label>
-                        </fieldset>
                         </div>
                         <div>
-                                <label for="degree-select">Choose your degree:</label>
+                                <label for="degree-select">Choose ur degree:</label>
                                 <select id="degree-select">
                                     <optgroup label="Computer Science">
                                         <option>Software Engineering</option>
@@ -163,6 +161,7 @@
                                 <textarea id="address" name="adress" rows="5" cols="33" placeholder="Comment text."></textarea>
                         </div>
                 <button><b>Submit</b></button>
+                </fieldset>
                 </form>
                 <div>
                         <label for="degree">Degree level:</label>
@@ -175,7 +174,7 @@
                 <progress id="file" max="100" value="70"> 60% </progress>
                 </div>
         <hr>
-        <footer>Some <i>copyright</i> info or perhaps something unrelated info for an &lt;article&gt;?</footer>
+        <footer><small><i>copyright</i> info or perhaps something unrelated info for an &lt;article&gt;?</small></footer>
         <dl>
                 <dfn><dt>Extend</dt></dfn>
                 <dd>to make it longer in terms of time</dd>
